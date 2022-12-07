@@ -47,8 +47,8 @@ def convert(lines):
 
 def write_file(filename, lines):
     with open(filename, 'w', encoding='utf-8') as f:
-    	for line in lines:
-    		f.write(line[1] + ',' +line[2] +'\n')
+        for line in lines:
+            f.write(line[1] + ',' +line[2] +'\n')
 
 
 def main():
